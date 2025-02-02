@@ -7,6 +7,8 @@
     text-decoration: none;
 }
 
+@media (min-width:361px){
+
 .container{
     height: 100%;
     width: 100%;
@@ -101,7 +103,7 @@ header{
 footer{
     background-color: #690000;
     width: 100%;
-    height: 200px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -116,13 +118,24 @@ footer{
     text-align: left;
     justify-content: center;
     gap: 15%;
+    color: #FFA4A4;
     font-size: 18px;
-    color: #b97575 ;
 }
 
 .foot_cont a:visited{
     color: #d19898 ;
 }
 .foot_cont a:hover{
-    color: #bb7d7d ;
+    color: #bb7d7d ; 
+}
+
+.links {
+    color: #FFA4A4;
+}
+.links:visited {
+    color: #d19898; 
+}
+.addon{
+    text-align: center;
+}
 }
