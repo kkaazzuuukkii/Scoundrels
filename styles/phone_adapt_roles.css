@@ -1,4 +1,7 @@
 @media (max-width:600px){
+    *{
+        user-select: none
+    }
     .options a{
         display: none;
     }

@@ -1,4 +1,7 @@
 @media (max-width:600px){
+    *{
+        user-select: none
+    }
     .options a{
         display: none;
     }
@@ -114,7 +117,9 @@
         font-size: 14px;
     }
     .div_cont>img{
-        display: none;
+        width: 50%;
+        margin-bottom: 40px;
+        border-radius: 25px;
     }
     
     .div_cont2{
